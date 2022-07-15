@@ -8,10 +8,9 @@ public class Homework1 {
         String hi = "                Hello ";
         String world = " WoRld!";
         char newLine = '\n';
-
-        String hiWord = (hi.trim() + world.toLowerCase()).repeat(3);
-        String perenos = String.valueOf(newLine);
-        System.out.println(hiWord + perenos);
+        
+        String hiWorld = (hi.trim() + world.toLowerCase() + newLine).repeat(3);
+        System.out.println(hiWorld);
 
 
         //Задача №2
@@ -32,3 +31,4 @@ public class Homework1 {
         System.out.println(zamena);
     }
 }
+
